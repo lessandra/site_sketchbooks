@@ -8,6 +8,7 @@ font-family: 'Shadows Into Light', cursive;
 font-family: 'La Belle Aurore', cursive;
 font-family: 'Short Stack', cursive;
 font-family: 'Caveat', cursive;
+font-family: 'Dosis', sans-serif;
 */
 
 
@@ -74,16 +75,21 @@ figure {
   float: left;
   display: inline;
   margin-right: 5%;
-  margin-left: 7%;
+  margin-left: 15%;
   margin-bottom: 5%;
+
 }
 
 figcaption {
   font-size: 10px;
-  font-family: 'Alice', serif;
+  font-family: 'Dosis', sans-serif;
   padding: 2px;
+  text-align: center;
 }
 
+img {
+  border-radius: 15px;
+}
 
 
 
@@ -106,17 +112,22 @@ figcaption {
     }
 
   #menubooks {
-    
-    padding-left: 10%;
+    padding-left: 8%;
     padding-right: 5%;
   }
 
+
   figure {
     align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   figcaption {
     font-size: 15px;
+    text-align: center;
   }
 
 }
