@@ -63,33 +63,60 @@ h1 {
   margin-top: 0px;
   font-size: 30px;
   color:#4a3958;
-
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  text-align: center;
 }
+
+
+figure {
+  float: left;
+  display: inline;
+  margin-right: 5%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+}
+
+figcaption {
+  font-size: 10px;
+  font-family: 'Alice', serif;
+  padding: 2px;
+}
+
 
 
 
 @media (min-width: 630px)  {
 
   nav {
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
-li {
-  font-size: 20px;
-}
+  li {
+    font-size: 20px;
+  }
 
   h1 {
     font-family: 'La Belle Aurore', cursive;
-    padding-left: 30px;
-    font-size: 100px;
-    height: 460px;
+    padding-top: 60px;
+    font-size: 70px;
+    height: 60px;
     color:#4a3958;
     }
 
-    h2 {
-      font-size: 50px;
-      padding-top: 60px;
-    }
+  #menubooks {
+    
+    padding-left: 10%;
+    padding-right: 5%;
+  }
 
+  figure {
+    align-items: center;
+  }
+
+  figcaption {
+    font-size: 15px;
+  }
 
 }
