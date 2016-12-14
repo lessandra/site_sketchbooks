@@ -91,6 +91,56 @@ img {
   border-radius: 15px;
 }
 
+#foot {
+  background-color: rgb(24, 9, 38);
+  padding: 15px;
+  clear: both;
+}
+
+#foot li {
+  display: inline;
+  color: #8092A3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-right:2%;
+}
+
+#foot a:link {
+    text-decoration: none;
+    color: #8092A3;
+}
+
+#foot a:visited {
+    text-decoration: none;
+    color: #8092A3;
+}
+
+#foot a:hover {
+    text-decoration: underline;
+    color: #8092A3;
+}
+
+#foot a:active {
+    text-decoration: underline;
+    color: #8092A3;
+  }
+
+#foot a[href*="facebook.com"] {
+    background-image: url(../images/thumbnails/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    font-size: 1px;
+  }
+
+#foot a[href*="twitter.com"] {
+    background-image: url(../images/thumbnails/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    font-size: 1px;
+  }
+
 
 
 @media (min-width: 630px)  {

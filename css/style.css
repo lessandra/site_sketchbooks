@@ -21,7 +21,7 @@ nav {
   height: 30px;
 }
 
-li {
+nav ul li {
   display: inline;
   padding-top: 20px;
   margin-left: 10px;
@@ -103,9 +103,57 @@ h2 {
   padding-left: 20%;
   padding-right: 20%;
    font-family: 'La Belle Aurore', cursive;
-
 }
 
+#foot {
+  background-color: rgb(24, 9, 38);
+  padding: 15px;
+}
+
+#foot li {
+  display: inline;
+  color: #8092A3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-right:2%;
+}
+
+#foot a:link {
+    text-decoration: none;
+    color: #8092A3;
+}
+
+#foot a:visited {
+    text-decoration: none;
+    color: #8092A3;
+}
+
+#foot a:hover {
+    text-decoration: underline;
+    color: #8092A3;
+}
+
+#foot a:active {
+    text-decoration: underline;
+    color: #8092A3;
+  }
+
+#foot a[href*="facebook.com"] {
+    background-image: url(../images/thumbnails/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    font-size: 1px;
+  }
+
+  #foot a[href*="twitter.com"] {
+      background-image: url(../images/thumbnails/twitter.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 10px;
+      font-size: 1px;
+
+    }
 
 @media (min-width: 630px)  {
 
@@ -113,7 +161,7 @@ h2 {
     margin-top: 10px;
   }
 
-li {
+nav ul li {
   font-size: 20px;
 }
 
@@ -125,7 +173,7 @@ li {
     height: 460px;
     background-repeat: no-repeat;
     background-position:top;
-    background-size:auto;
+    background-size:100%;
     margin-top: -10px;
     padding-top: 300px;
     color:#4a3958;
